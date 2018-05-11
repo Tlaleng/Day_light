@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="150.622" Width="301.898" Background="White">
     <Grid Margin="0,0,0.333,-0.667">
-        <Label x:Name="label" Content="Status of the lights:" HorizontalAlignment="Left" Margin="40,50,0,0" VerticalAlignment="Top" Width="116" Height="29"/>
+        <Label x:Name="label" Content="Status of the lights:" HorizontalAlignment="Left" Margin="27,50,0,0" VerticalAlignment="Top" Width="129" Height="29"/>
         <Button x:Name="Checkbtn" Content="Check" HorizontalAlignment="Left" Margin="161,53,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.5,0.475" Click="Checkbtn_Click"/>
 
     </Grid>
