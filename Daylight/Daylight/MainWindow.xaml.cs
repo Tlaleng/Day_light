@@ -29,5 +29,25 @@ namespace Daylight
         {
 
         }
+
+        public class Daylightdetector
+        {
+            public Daylightdetector()
+            {
+
+            }
+
+            public bool getState(DateTime time)
+            {
+                if ((time.Hour > 6) && (time.Hour < 18))
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            }
+        }
     }
 }
