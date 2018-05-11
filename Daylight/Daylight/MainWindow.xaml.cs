@@ -27,6 +27,20 @@ namespace Daylight
 
         private void Checkbtn_Click(object sender, RoutedEventArgs e)
         {
+            DateTime currentTime = DateTime.Now;
+            Daylightdetector detector = new Daylightdetector();
+
+            if (detector.getState(currentTime))
+            {
+                label.Content = "Status of the lights:ON";
+                MessageBox.Show("Light is ON");
+            }
+            else
+            {
+                label.Content = "Status of the lights:OFF";
+                MessageBox.Show("Light is OFF");
+            }
+
 
         }
 
