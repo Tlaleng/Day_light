@@ -32,12 +32,12 @@ namespace Daylight
 
             if (detector.getState(currentTime))
             {
-                label.Content = "Status of the lights:ON";
+                label.Content = "Status of the lights:";
                 MessageBox.Show("Light is ON");
             }
             else
             {
-                label.Content = "Status of the lights:OFF";
+                label.Content = "Status of the lights:";
                 MessageBox.Show("Light is OFF");
             }
 
