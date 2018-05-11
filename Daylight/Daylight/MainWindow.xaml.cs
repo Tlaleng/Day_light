@@ -24,5 +24,10 @@ namespace Daylight
         {
             InitializeComponent();
         }
+
+        private void Checkbtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
